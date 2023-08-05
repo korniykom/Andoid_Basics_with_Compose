@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -31,7 +32,10 @@ class MainActivity : ComponentActivity() {
             HappyBirthdayGreetingTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    GreetingImage(message = "Happy Birthday!", from ="From Max." )
+                    GreetingImage(
+                        message = stringResource(R.string.happy_birthday_text),
+                        from = stringResource(R.string.from_max_text)
+                    )
                 }
             }
         }
@@ -46,7 +50,8 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
         Image(
             painter = image,
             contentDescription = null,
-            contentScale = ContentScale.Crop
+            contentScale = ContentScale.Crop,
+            alpha = .5F
         )
         GreetingText(
             message = message,
@@ -69,10 +74,9 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
         Text(
             text = from,
             fontSize = 36.sp,
-            textAlign = TextAlign.Center,
-            modifier = modifier
-                .padding(16.dp)
-                .align(alignment = Alignment.End)
+            modifier = Modifier
+                .padding(32.dp)
+                .align(alignment = Alignment.CenterHorizontally)
         )
     }
 }
