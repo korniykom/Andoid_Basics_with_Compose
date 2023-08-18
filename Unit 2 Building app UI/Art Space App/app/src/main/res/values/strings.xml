@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArtSpace App</string>
+    <string name="groove_title">The Groove\'s Tag</string>
+    <string name="ballas_title">The Ballas\'s Tag</string>
+    <string name="vagos_title">The Vagos\'s Tag</string>
+</resources>
