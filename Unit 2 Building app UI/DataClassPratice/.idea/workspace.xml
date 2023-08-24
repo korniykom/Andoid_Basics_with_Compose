@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f398a2b-1996-4c6f-915c-8a0adf59c368" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/src/main/java/com/example/woof/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/src/main/java/com/example/woof/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/src/main/res/font/montserrat_bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/src/main/java/com/example/woof/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/app/src/main/java/com/example/woof/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit 3/Woof/basic-android-kotlin-compose-training-woof-starter/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

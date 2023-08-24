@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">30 days app</string>
+    <string name="app_top_bar">Cyberpunk Photos</string>
+    <string name="Description1">Image of NightCity</string>
+    <string name="Description2">Image of Johny Silverhand</string>
+    <string name="Description3">Aestetic</string>
+    <string name="Description4">Katana Girl</string>
+    <string name="Description5">Ciri The CyberPsycho</string>
+</resources>
